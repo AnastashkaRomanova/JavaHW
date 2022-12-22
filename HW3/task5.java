@@ -3,13 +3,14 @@ package HW3;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class task4 {
-    //Извлечь элемент (по указанному индексу) из заданного списка
+public class task5 {
+    //Обновить определенный элемент списка по заданному индексу.
     public static void main(String[] args) {
-
         ArrayList<String> list = new ArrayList<String>(Arrays.asList("Кот", "Собака", "Корова", "Лошадь", "Петух"));
         System.out.println(list);
-        System.out.println(list.get(4));
-
+        list.set(2, "Свинья");
+        System.out.println(list);
+        
     }
+    
 }
