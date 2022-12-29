@@ -1,4 +1,4 @@
-package SEM4;
+package HW4;
 
 import java.util.ArrayList;
 import java.util.Collection;
